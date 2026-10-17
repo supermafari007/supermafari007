@@ -16,27 +16,37 @@ Complemento esta experiencia con proyectos propios de desarrollo y modernizació
 
 ## Proyecto destacado: modernización del Himnario Adventista
 
-**Migración de una aplicación heredada de Adobe Flash/AIR a Electron.** Proyecto personal de adaptación y modernización, cuyo repositorio se mantiene privado.
+**Modernización de una aplicación heredada de Adobe Flash/AIR, con ediciones para Windows, macOS y Linux.** El proyecto comenzó con una adaptación a Electron y evolucionó hacia versiones que integran las bibliotecas y funciones de cada sistema operativo.
 
-- Adaptación de la aplicación a un entorno de escritorio basado en **Electron, JavaScript, Node.js, HTML y CSS**.
-- Trabajo en la estructura de la aplicación, la interfaz y la integración entre el proceso principal de Electron y sus recursos.
-- Incorporación de lógica de consulta de versiones y gestión de actualizaciones de contenido multimedia.
-- Separación del paquete de aplicación y los recursos multimedia para facilitar su distribución y mantenimiento.
-- Configuración de scripts de empaquetado para **Windows, macOS y Linux**.
+| Plataforma | Tecnologías principales | Procesadores |
+| --- | --- | --- |
+| Windows | C#, .NET y WebView2 | Intel/AMD x64 |
+| macOS | Swift, AppKit y WKWebView | Intel y Apple Silicon |
+| Linux | Python, GTK 4 y WebKitGTK | Intel/AMD64 y ARM64 |
 
-Este proyecto me ha permitido trabajar en **modernización de software heredado, mantenimiento de código, aplicaciones de escritorio y distribución de software**.
+- Mantenimiento de una interfaz basada en **HTML, CSS y JavaScript**, con adaptaciones de ventana, diálogos y archivos para cada sistema.
+- Distribución mediante **instaladores ligeros**, separando el programa de sus recursos multimedia.
+- Descarga de letras, música y videos desde la nube, con verificación **SHA-256**, reparación del contenido y recuperación ante fallos de instalación.
+- Consulta y descarga de actualizaciones del programa desde **GitHub Releases**, seleccionando el instalador correspondiente a la plataforma y al procesador.
+- Automatización de compilaciones y pruebas con **GitHub Actions**, incluyendo comprobaciones de instalación, reproducción multimedia y limpieza de datos.
+
+El código fuente se mantiene privado. Los **[instaladores y la documentación de uso están disponibles públicamente](https://github.com/supermafari007/Himnario-IASD-Actualizaciones)**.
+
+Este proyecto me ha permitido trabajar en **modernización de software heredado, integración con el sistema operativo, calidad del software y distribución de aplicaciones de escritorio**.
 
 ## Otras áreas de desarrollo
 
 También trabajo en prototipos y herramientas personales de gestión, interfaces de usuario y procesos operativos, utilizando tecnologías como **Flutter, SQL, PostgreSQL y Supabase**. Algunos de estos desarrollos siguen siendo privados o están en etapas de prototipado.
 
-### Tecnologías y herramientas
+### Tecnologías y herramientas utilizadas en proyectos
 
 | Área | Tecnologías y herramientas |
 | --- | --- |
-| Aplicaciones de escritorio y web | Electron, JavaScript, Node.js, HTML, CSS |
-| Desarrollo y prototipos | Dart, Flutter, Java |
+| Aplicaciones de escritorio | C#/.NET, Swift, Python |
+| Interfaces web | JavaScript, HTML, CSS |
+| Desarrollo y prototipos | Dart, Flutter, Java, Electron, Node.js |
 | Datos y servicios | SQL, PostgreSQL, Supabase |
+| Automatización de compilaciones y pruebas | GitHub Actions |
 | Control de versiones y diseño | Git, GitHub, Figma |
 | Soporte e infraestructura | Windows, Linux básico, redes LAN/Wi-Fi, Microsoft 365 |
 
